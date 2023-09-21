@@ -13,11 +13,13 @@ Example:
 
 This dataset is the work of the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem"
 
-`@misc{guo2023empirical,
+```
+@misc{guo2023empirical,
       title={An Empirical Study of Malicious Code In PyPI Ecosystem}, 
       author={Wenbo Guo and Zhengzi Xu and Chengwei Liu and Cheng Huang and Yong Fang and Yang Liu},
       year={2023},
       eprint={2309.11021},
       archivePrefix={arXiv},
       primaryClass={cs.SE}
-}`
+}
+```

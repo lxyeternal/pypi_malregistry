@@ -1,0 +1,4 @@
+# 忽略特定目录
+.idea/
+*.DS_Store
+*.pyc

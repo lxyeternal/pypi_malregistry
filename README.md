@@ -23,3 +23,10 @@ This dataset is the work of the ASE 2023 paper "An Empirical Study of Malicious 
       primaryClass={cs.SE}
 }
 ```
+
+## Update
+
+### 31 Mar. 2024 
+Add new 431 malicious packages using typoSquatting attack method.
+
+ref: [https://mp.weixin.qq.com/s/VIThE0I5BkQBW6hIOubnkQ](https://mp.weixin.qq.com/s/VIThE0I5BkQBW6hIOubnkQ)

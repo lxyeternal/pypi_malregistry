@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 3000 versions of the source code of 2359 malicious packages.
+This data set includes about 3349 versions of the source code of 2839 malicious packages.
 
 ## Dataset Format
 

@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 3,405 versions of the source code of 2,895 malicious packages.
+This data set includes about 3,439 versions of the source code of 2,929 malicious packages.
 
 ## Dataset Format
 
@@ -54,3 +54,6 @@ try:
 except: pass
 ```
 
+
+### 21 Apr. 2024 
+Add new 34 malicious packages using typoSquatting attack method.

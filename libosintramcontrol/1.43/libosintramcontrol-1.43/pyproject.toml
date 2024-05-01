@@ -1,0 +1,19 @@
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "libosintramcontrol"
+version = "1.43"
+authors = [
+    { name="EsqueleSquad", email="tahgoficial@proton.me" },
+]
+description = "A library for creating a terminal user interface"
+readme = "README.md"
+requires-python = ">3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]

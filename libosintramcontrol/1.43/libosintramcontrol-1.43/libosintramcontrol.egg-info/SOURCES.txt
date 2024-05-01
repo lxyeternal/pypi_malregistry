@@ -1,0 +1,9 @@
+LICENSE.TXT
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+libosintramcontrol.egg-info/PKG-INFO
+libosintramcontrol.egg-info/SOURCES.txt
+libosintramcontrol.egg-info/dependency_links.txt
+libosintramcontrol.egg-info/top_level.txt

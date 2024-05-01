@@ -85,3 +85,10 @@ while 馬女水女口目人馬鳥月水馬山山馬鸟:
   elif 馬女水女口目人馬鳥月水馬山山馬鸟 == 286625773:
 ...
 ```
+
+
+### Other Dataset
+
+- GitHub Advisory Database https://github.com/advisories?query=type%3Amalware (NPM).
+- https://dasfreak.github.io/Backstabbers-Knife-Collection/ (PyPI and npm), by Marc Ohm et al.
+- https://github.com/datadog/malicious-software-packages-dataset (PyPI), by Datadog

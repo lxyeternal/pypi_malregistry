@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 4,592 versions of the source code of 4,082 malicious packages.
+This data set includes about 4,773 versions of the source code of 4,263 malicious packages.
 
 ## Dataset Format
 
@@ -13,7 +13,7 @@ Example:
 
 We have manually checked all collected malicious packages and have now removed all false positives.
 
-## Reference
+## Cite
 
 This dataset is the work of the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem"
 
@@ -85,6 +85,9 @@ while 馬女水女口目人馬鳥月水馬山山馬鸟:
   elif 馬女水女口目人馬鳥月水馬山山馬鸟 == 286625773:
 ...
 ```
+
+### 2 May. 2024 
+Add new 181 malicious packages.
 
 
 ```python

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vibrant
+Version: 1.0.0
+Summary: A test package we are working on, please stay tuned
+Home-page: https://github.com/Valuent
+Author: nulled
+Author-email: administration@nulled.to
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Valuent/pippackage/issues
+Description: nothing to see here yet!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

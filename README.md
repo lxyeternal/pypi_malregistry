@@ -11,7 +11,7 @@ Example:
 
 ## False positive
 
-We have manually checked all collected malicious packages and have now removed all false positives.
+**We have manually checked all collected malicious packages and have now removed all false positives.**
 
 ## Cite
 

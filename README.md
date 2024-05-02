@@ -13,7 +13,7 @@ Example:
 
 We have manually checked all collected malicious packages and have now removed all false positives.
 
-## Reference
+## Cite
 
 This dataset is the work of the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem"
 

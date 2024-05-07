@@ -188,6 +188,11 @@ Although the code is not any direct malicious behavior, But it downloads a malic
 Add new 1017 malicious packages.
 
 
+### About the malicious packages detection
+
+We have proposed a new method to detect malicious packages in the PyPI ecosystem. We will release the code and the dataset after the paper is accepted.
+
+
 ### Other Dataset
 
 - GitHub Advisory Database https://github.com/advisories?query=type%3Amalware (NPM).

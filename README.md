@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 4,808 versions of the source code of 4,298 malicious packages.
+This data set includes about 5,881 versions of the source code of 5,167 malicious packages.
 
 ## Dataset Format
 
@@ -13,8 +13,8 @@ Example:
 
 **We have manually checked all collected malicious packages and have now removed all false positives.**
 
-## Cite
-
+## Cite Me
+ 
 This dataset is the work of the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem"
 
 ```
@@ -182,6 +182,10 @@ with open("discomusic.exe", "wb") as f:
 
 Although the code is not any direct malicious behavior, But it downloads a malicious executable file. We will keep it in the dataset for further analysis.
 
+
+
+### 7 May. 2024 
+Add new 1017 malicious packages.
 
 
 ### Other Dataset

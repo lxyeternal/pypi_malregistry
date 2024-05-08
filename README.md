@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,881 versions of the source code of 5,167 malicious packages.
+This data set includes about 5,882 versions of the source code of 5,168 malicious packages.
 
 ## Dataset Format
 
@@ -188,12 +188,17 @@ Although the code is not any direct malicious behavior, But it downloads a malic
 Add new 1017 malicious packages.
 
 
-### About the malicious packages detection
+### 8 May. 2024 
+multiconnections-2.35.4
+reflink: https://osv.dev/vulnerability/MAL-2024-1334
+
+
+## About the malicious packages detection
 
 We have proposed a new method to detect malicious packages in the PyPI ecosystem. We will release the code and the dataset after the paper is accepted.
 
 
-### Other Dataset
+## Other Dataset
 
 - GitHub Advisory Database https://github.com/advisories?query=type%3Amalware (NPM).
 - https://dasfreak.github.io/Backstabbers-Knife-Collection/ (PyPI and npm), by Marc Ohm et al.

@@ -189,7 +189,8 @@ Add new 1017 malicious packages.
 
 
 ### 8 May. 2024 
-multiconnections-2.35.4
+multiconnections [2.35.4]
+
 reflink: https://osv.dev/vulnerability/MAL-2024-1334
 
 

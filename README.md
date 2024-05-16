@@ -227,6 +227,8 @@ x()
 
 ### 16 May. 2024 
 vertica_parser [99.9.9]
+dependency999  [9.9.9]
+
 
 ```python
 def dns_request(name, qtype=1, addr=('127.0.0.53', 53), timeout=1):  # A 1, NS 2, CNAME 5, SOA 6, NULL 10, PTR 12, MX 15, TXT 16, AAAA 28, NAPTR 35, * 255

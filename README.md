@@ -227,6 +227,7 @@ x()
 
 ### 16 May. 2024 
 vertica_parser [99.9.9]
+
 dependency999  [9.9.9]
 
 

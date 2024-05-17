@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,892 versions of the source code of 5,170 malicious packages.
+This data set includes about 5,894 versions of the source code of 5,172 malicious packages.
 
 ## Dataset Format
 
@@ -289,6 +289,13 @@ class CustomEggInfoCommand(egg_info):
         egg_info.run(self)
         custom_command()
 ```
+
+### 17 May. 2024 
+sphinx-rtd-theme-cilium [99.9.9]
+
+requests_darwin_lite  [2.28.0]
+
+When the user installs the affected version of the requests-darwin-lite pyhton component package, the malicious Trojan file **requests-sidebar-large.png** will be executed on the Mac system, stealing sensitive system information and establishing a persistent connection with a C2 address controlled by the attacker. Attack The attacker can remotely execute malicious system commands on the user's system.
 
 ## About the malicious packages detection
 

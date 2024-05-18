@@ -18,13 +18,13 @@ Example:
 This dataset is the work of the ASE 2023 paper "An Empirical Study of Malicious Code In PyPI Ecosystem"
 
 ```
-@misc{guo2023empirical,
-      title={An Empirical Study of Malicious Code In PyPI Ecosystem}, 
-      author={Wenbo Guo and Zhengzi Xu and Chengwei Liu and Cheng Huang and Yong Fang and Yang Liu},
-      year={2023},
-      eprint={2309.11021},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE}
+@inproceedings{guo2023empirical,
+  title={An Empirical Study of Malicious Code In PyPI Ecosystem},
+  author={Guo, Wenbo and Xu, Zhengzi and Liu, Chengwei and Huang, Cheng and Fang, Yong and Liu, Yang},
+  booktitle={2023 38th IEEE/ACM International Conference on Automated Software Engineering (ASE)},
+  pages={166--177},
+  year={2023},
+  organization={IEEE}
 }
 ```
 

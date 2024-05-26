@@ -364,10 +364,10 @@ class PreInstallCommand(install):
 ```
 
 ### 26 May. 2024 
-jupyter_calendar_extension-0.1.tar.gz <br>
-calendar_extender-0.1.tar.gz <br>
-calendar_extender-0.2.tar.gz <br>
-auto_scrubber-0.1.tar.gz <br>
+jupyter_calendar_extension-0.1 <br>
+calendar_extender-0.1 <br>
+calendar_extender-0.2 <br>
+auto_scrubber-0.1 <br>
 
 ```python
 AUTO = [

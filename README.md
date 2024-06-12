@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,922 versions of the source code of 5,193 malicious packages.
+This data set includes about 5,923 versions of the source code of 5,194 malicious packages.
 
 ## Dataset Format
 
@@ -489,6 +489,9 @@ class Filesyncer:
     
 Filesyncer()
 ```
+
+### 12 Jun. 2024 
+pyzelf [2.0.1] <br>
 
 
 ## About the malicious packages detection

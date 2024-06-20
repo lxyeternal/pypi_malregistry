@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,114 versions of the source code of 5,402 malicious packages.
+This data set includes about 6,115 versions of the source code of 5,403 malicious packages.
 
 ## Dataset Format
 
@@ -565,6 +565,7 @@ def read_ver():
 ```
 
 ### 20 Jun. 2024
+quickwebbasicauth [2.3.2] <br>
 artifact-lab-3-package-e90915e1 [0.1.2, 0.1.3] <br>
 utilitytool [0.0.2] <br>
 utilitytool2 [0.0.2, 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.8, 0.0.9] <br>

@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,116 versions of the source code of 5,404 malicious packages.
+This data set includes about 6,123 versions of the source code of 5,406 malicious packages.
 
 ## Dataset Format
 
@@ -606,6 +606,8 @@ def main():
 
 ### 21 Jun. 2024
 webquickauth [2.3.5] <br>
+startup-entrypoints [1.0, 4.0] <br>
+spacestudio-orbit-propagation [1.1.3, 1.1.4, 1.1.5, 1.2.0, 1.2.1] <br>
 
 ## About the malicious packages detection
 

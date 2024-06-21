@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,115 versions of the source code of 5,403 malicious packages.
+This data set includes about 6,116 versions of the source code of 5,404 malicious packages.
 
 ## Dataset Format
 
@@ -603,6 +603,9 @@ def main():
         print(".")
         print("cool")
 ```
+
+### 21 Jun. 2024
+webquickauth [2.3.5] <br>
 
 ## About the malicious packages detection
 

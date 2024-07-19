@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,130 versions of the source code of 6,055 malicious packages.
+This data set includes about 7,131 versions of the source code of 6,056 malicious packages.
 
 ## Dataset Format
 
@@ -769,6 +769,10 @@ def rudd():
     future_scan.result()
     future_photos.result()
 ```
+
+
+### 19 Jul. 2024
+aptx [0.2] <br>
 
 ## About the malicious packages detection
 

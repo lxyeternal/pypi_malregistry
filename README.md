@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,145 versions of the source code of 6,064 malicious packages.
+This data set includes about 7,149 versions of the source code of 6,068 malicious packages.
 
 ## Dataset Format
 
@@ -1059,6 +1059,12 @@ class PostInstallCommand(install):
             except:
                 pass
 ```
+
+### 31 Jul. 2024
+appetize-cli [1.0.0] <br>
+orion.algo.extrapol [1.0.0] <br>
+orion.algo.extrapol [1.0.0] <br>
+adafruit_imageload [1.0.0] <br>
 
 ## About the malicious packages detection
 

@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,153 versions of the source code of 6,076 malicious packages.
+This data set includes about 7,164 versions of the source code of 6,081 malicious packages.
 
 ## Dataset Format
 
@@ -1073,6 +1073,16 @@ urllib12 [1.26.12, 1.30.0] <br>
 studypong [5.66, 7.16, 8.22, 10.45] <br>
 pipsqlite3liberyV2 [1.1.0] <br>
 httprequesthub [2.31.0, 2.31.1, 2.31.3, 2.31.4] <br>
+
+
+### 02 Aug. 2024
+zoom-pyutils [7.0.0] <br>
+crytic_compilers [0.3.10, 0.3.11] <br>
+discord-misc [0.2.23, 0.2.24] <br>
+threadxpools [1.0, 1.1, 1.2, 1.3] <br>
+jupyter-pytest-fi-console [8.7.5, 8.7.6] <br>
+discord-py-bot [0.0.1] <br>
+
 
 ## About the malicious packages detection
 

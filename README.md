@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,164 versions of the source code of 6,081 malicious packages.
+This data set includes about 7,224 versions of the source code of 6,116 malicious packages.
 
 ## Dataset Format
 
@@ -1082,6 +1082,9 @@ discord-misc [0.2.23, 0.2.24] <br>
 threadxpools [1.0, 1.1, 1.2, 1.3] <br>
 jupyter-pytest-fi-console [8.7.5, 8.7.6] <br>
 discord-py-bot [0.0.1] <br>
+
+### 04 Aug. 2024
+pygaqme seccache driftme pytorchg pytorch-triton sjmplejson pytirch beautyfulsoup pygzme matplkotlib mozilla localization-utils zuppa beautifilsoop splib-http pywarder matplotblib pythrch pztorch pygfme .DS_Store pytorbch pygamne beaitifulsoop pygacme matplotlob ss-concurrent-log-handler simpkejson pygqame nir-bb-test beutifulsoop spl-types matplotlpib matplttlib simplejason simplejsoh beautifulsoupo pygarme catme urtelib32 pqtorch pytorcb simolejson django-log-tracker matplottbib pygane pygamm beutifullsoup matpllotib prometheus-http-client-shopee matplotib beautifoulsoup beautifulsoup aiohttp-proxy-connect matploltlab matplotllib matplorlib pygamw matplftlib matplotlr matplootib beautifulsoul fnbot2 beuatiflsoup pytorchc pytarch pygraphql32 matplotklib pytorcdh color-vividpy matplolplib libwebp ascii2art pytorchb beautysoup pygamse pygawme sijplejson ethereum2 matploltlib beautifolsoup pytorchy pygxme beaotifulsoup sjimplejson beautifulsoop ca-certificates sea-django-mysqlpool modularseven hypixelmc simpoejson locute simplejdon maptplotlib pytoich pytordh huehuehuehue pygaome np6helperhttptest pygaeme hymcapi np6helperhttper python-splib ssc-concurrent-log-handler pygazme simepljson pygvame beautifilsoup pygume simplejsoj raydium pytrosh pytorch sol-instruct test-test-test123 matpliotlib pygmme pygamr matplotkib beautifullsoop beaufifulsoup matplotoib siplejason beautifullsooup sol-structs azureml-contrib-jupyterrun cloud-client raydium-sdk
 
 
 ## About the malicious packages detection

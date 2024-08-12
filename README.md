@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,470 versions of the source code of 6,133 malicious packages.
+This data set includes about 7,472 versions of the source code of 6,134 malicious packages.
 
 ## Dataset Format
 
@@ -1162,6 +1162,7 @@ aiohttp-proxy5 [0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 
 test-test-test123 [0.1.67, 0.1.68, 0.1.69, 0.1.70, 0.1.71] <br>
 aiohttp-async-proxy [0.1.72, 0.1.73] <br>
 ai-http-proxy [0.1.2] <br>
+typing-unions [3.10.0.1, 3.10.0.0] <br>
 
 
 ## About the malicious packages detection

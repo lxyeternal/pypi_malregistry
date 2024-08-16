@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,505 versions of the source code of 6,138 malicious packages.
+This data set includes about 7,506 versions of the source code of 6,139 malicious packages.
 
 ## Dataset Format
 
@@ -1219,6 +1219,8 @@ def send_data():
 send_data()
 ```
 
+### 16 Aug. 2024
+artifact-lab-3-package-b6920ef4 [0.1.1] <br>
 
 ## About the malicious packages detection
 

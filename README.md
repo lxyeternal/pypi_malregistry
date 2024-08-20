@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 7,507 versions of the source code of 6,140 malicious packages.
+This data set includes about 10,843 versions of the source code of 9,466 malicious packages.
 
 ## Dataset Format
 
@@ -1224,6 +1224,9 @@ artifact-lab-3-package-b6920ef4 [0.1.1] <br>
 
 ### 19 Aug. 2024
 artifact-lab-3-package-b55680cd [0.1.1] <br>
+
+### 20 Aug. 2024
+We have collected 3,327 malicious packages, which were discovered early and subsequently removed from PyPI.org.
 
 ## About the malicious packages detection
 

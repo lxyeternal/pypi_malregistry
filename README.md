@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 10,817 versions of the source code of 9,495 malicious packages.
+This data set includes about 10,818 versions of the source code of 9,496 malicious packages.
 
 ## Dataset Format
 
@@ -1310,6 +1310,10 @@ artifact-lab-3-package-76a351f5 [0.2.0, 0.4.0] <br>
 juphelp [0.1.0] <br>
 juphelper [0.1.6] <br>
 jupihelp [0.1.0] <br>
+
+
+### 1 Sept. 2024
+flophttp [2.3.5] <br>
 
 ## About the malicious packages detection
 

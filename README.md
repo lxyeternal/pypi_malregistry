@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 10,821 versions of the source code of 9,499 malicious packages.
+This data set includes about 10,822 versions of the source code of 9,502 malicious packages.
 
 ## Dataset Format
 
@@ -1325,7 +1325,10 @@ exec(base64.b64decode('aW1wb3J0IG9zDQppbXBvcnQgdGhyZWFkaW5nDQpmcm9tIHN5cyBpbXBvc
 ```
 
 ### 9 Sept. 2024
-hello_world_package_test [0.1] <br>s
+hello_world_package_test [0.1] <br>
+
+### 11 Sept. 2024
+mlc-llm-nightly [99.99.101, 99.99.103, 99.99.105] <br>
 
 ## About the malicious packages detection
 

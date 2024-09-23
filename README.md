@@ -1005,6 +1005,9 @@ if sys.argv[-1] == "publish":
 
 We have proposed a new method to detect malicious packages in the PyPI ecosystem. We will release the code and the dataset after the paper is accepted.
 
+## Contact
+
+To ensure security, we will release a new batch of malicious component datasets each month. If needed, please contact us via email at honywenair@gmail.com.
 
 ## Other Dataset
 

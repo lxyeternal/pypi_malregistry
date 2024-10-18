@@ -1352,6 +1352,9 @@ class AfterInstall(install):
         notmalfunc()
 ```
 
+### 18 Oct. 2024
+Add some new malicious packages.
+
 ## About the malicious packages detection
 
 We have proposed a new method to detect malicious packages in the PyPI ecosystem. We will release the code and the dataset after the paper is accepted.

@@ -28,6 +28,17 @@ This dataset is the work of the ASE 2023 paper "An Empirical Study of Malicious 
 }
 ```
 
+
+## About the malicious packages detection
+
+@inproceedings{guo2026cutting,
+  title={Cutting the Gordian Knot: Detecting Malicious PyPI Packages via a Knowledge-Mining Framework},
+  author={Guo, Wenbo and Liu, Chengwei and Kang, Ming and Zhang, Yiran and Wu, Jiahui and Xu, Zhengzi and Sachidananda, Vinay and Liu, Yang},
+  booktitle={35th USENIX Security Symposium (USENIX Security 26)},
+  year={2026},
+  organization={USENIX Association}
+}
+
 ## Update
 
 ### 31 Mar. 2024 
@@ -1362,9 +1373,6 @@ Add some new malicious packages.
 ### 27 Nov. 2024
 Add some new malicious packages.
 
-## About the malicious packages detection
-
-We have proposed a new method to detect malicious packages in the PyPI ecosystem. We will release the code and the dataset after the paper is accepted.
 
 ## Contact
 

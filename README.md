@@ -1375,6 +1375,9 @@ Add some new malicious packages.
 ### 27 Nov. 2024
 Add some new malicious packages.
 
+### 14 Jun. 2026
+Add 500 new malicious packages.
+
 
 ## Contact
 
